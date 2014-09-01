@@ -1,0 +1,13 @@
+{
+  "name": "dw-plugin-repo",
+  "description": "Central repository for Datawrapper plugins. Supports public and private plugins hosted on GitHub and Bitbucket.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:datawrapper/dw-plugin-repo.git"
+  },
+  "dependencies": {
+    "nomnom": "^1.8.0",
+    "express": "^4.8.7",
+    "winston": "^0.7.3"
+  }
+}
