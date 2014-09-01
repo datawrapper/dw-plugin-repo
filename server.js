@@ -39,7 +39,7 @@ var plugins = [];
  * their latest version number
  *
  */
-app.get('/plugins', function(req, res) {
+app.get('/list', function(req, res) {
     res.send(JSON.stringify(plugins));
 });
 
@@ -49,6 +49,14 @@ app.get('/plugins', function(req, res) {
  */
 app.post('/refresh', function(req, res) {
     // body...
+});
+
+
+/*
+ * download a zip-file with the plugin content
+ */
+app.get('/load/:plugin_id', function(req, res) {
+    // body...    
 });
 
 
